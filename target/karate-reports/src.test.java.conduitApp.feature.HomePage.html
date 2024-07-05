@@ -26,7 +26,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 });
 </script>
 
-    <title>conduitApp.feature.Articles</title>
+    <title>src.test.java.conduitApp.feature.HomePage</title>
   </head>
   <body>
     <div id="root-container">
@@ -49,13 +49,13 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
     <div>Scenarios</div>
   </div>
   <div id="nav-date">
-    <div>2024-07-04 09:36:42 p. m.</div>
+    <div>2024-07-04 10:17:47 p. m.</div>
   </div>
 </div>
 
         <div class="nav-container">
           <div class="nav-item passed">
-            <a href="#[1:7]"><span>[1:7]</span> <span>Create a new article</span></a>
+            <a href="#[1:7]"><span>[1:7]</span> <span>Get all tags</span></a>
           </div>
         </div>
       </div>
@@ -64,8 +64,8 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
           <a href="karate-summary.html">Summary</a><span class="feature-label">|</span>
           <a href="karate-tags.html">Tags</a><span class="feature-label">|</span>
           <span class="feature-label">Feature:</span>
-          <span class="feature-path">conduitApp/feature/Articles.feature</span><span class="feature-label">|</span>
-          <span class="feature-name">Articles</span>
+          <span class="feature-path">src/test/java/conduitApp/feature/HomePage.feature</span><span class="feature-label">|</span>
+          <span class="feature-name">Test for the home page</span>
           <span class="feature-description"></span>
         </div>
         <div class="scenario">
@@ -76,12 +76,12 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
               </div>
               <div class="scenario-keyword">
                 Scenario: <span>[1:7]</span>
-                <span class="scenario-name">Create a new article</span>
+                <span class="scenario-name">Get all tags</span>
                 <span></span>
               </div>
             </div>
             <div class="scenario-time passed">
-              <span>ms:</span>&nbsp;<span>2713</span>
+              <span>ms:</span>&nbsp;<span>1471</span>
             </div>
           </div>
           <div class="step-row">
@@ -104,7 +104,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>Given</span>&nbsp;<span>url &#39;https://api.realworld.io/api/&#39;</span>
       </div>
     </div>
-    <div class="time-cell passed">1</div>
+    <div class="time-cell passed">2</div>
   </div>
 
    
@@ -113,7 +113,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
   
 
-  <div class="preformatted" data-parent="0.5">21:36:39.949 karate.env system property was: null 
+  <div class="preformatted" data-parent="0.5">22:17:46.167 karate.env system property was: null 
 </div>   
 
   
@@ -130,7 +130,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
       <div class="step-ref passed">8</div>
       
       <div class="step-cell passed">
-        <span>Given</span>&nbsp;<span>path &#39;users/login&#39;</span>
+        <span>Given</span>&nbsp;<span>path &#39;tags&#39;</span>
       </div>
     </div>
     <div class="time-cell passed">1</div>
@@ -158,10 +158,65 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
       <div class="step-ref passed">9</div>
       
       <div class="step-cell passed">
-        <span>And</span>&nbsp;<span>request  {&quot;user&quot;: {&quot;email&quot;: &quot;testkarate1@test.cl&quot;,&quot;password&quot;: &quot;clave123456&quot;}}</span>
+        <span>When</span>&nbsp;<span>method Get</span>
       </div>
     </div>
-    <div class="time-cell passed">171</div>
+    <div class="time-cell passed">1405</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.9">22:17:46.600 request:
+1 &gt; GET https://api.realworld.io/api/tags
+1 &gt; Host: api.realworld.io
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.1)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+22:17:47.593 response time in milliseconds: 981
+1 &lt; 200
+1 &lt; Date: Fri, 05 Jul 2024 02:17:47 GMT
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Connection: keep-alive
+1 &lt; Report-To: {&quot;group&quot;:&quot;heroku-nel&quot;,&quot;max_age&quot;:3600,&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https://nel.heroku.com/reports?ts=1720145867&amp;sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&amp;s=P4awKfO5PAMFtLVLGZPjiv8tEFYv1d8AXqAbO0vzjS0%3D&quot;}]}
+1 &lt; Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1720145867&amp;sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&amp;s=P4awKfO5PAMFtLVLGZPjiv8tEFYv1d8AXqAbO0vzjS0%3D
+1 &lt; Nel: {&quot;report_to&quot;:&quot;heroku-nel&quot;,&quot;max_age&quot;:3600,&quot;success_fraction&quot;:0.005,&quot;failure_fraction&quot;:0.05,&quot;response_headers&quot;:[&quot;Via&quot;]}
+1 &lt; X-Powered-By: Express
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; Etag: W/&quot;6a-U6mJh2BTg5dyO/Fac+g9jhbqqwY&quot;
+1 &lt; Via: 1.1 vegur
+1 &lt; CF-Cache-Status: DYNAMIC
+1 &lt; Server: cloudflare
+1 &lt; CF-RAY: 89e3dc57aaa874aa-MIA
+1 &lt; alt-svc: h3=&quot;:443&quot;; ma=86400
+{&quot;tags&quot;:[&quot;eos&quot;,&quot;est&quot;,&quot;ipsum&quot;,&quot;enim&quot;,&quot;repellat&quot;,&quot;quia&quot;,&quot;exercitationem&quot;,&quot;consequatur&quot;,&quot;facilis&quot;,&quot;tenetur&quot;]}
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.10">
+      <div class="step-ref passed">10</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
   </div>
 
    
@@ -182,14 +237,14 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
   
 
   <div class="step-row">
-    <div class="step-container" id="0.10">
-      <div class="step-ref passed">10</div>
+    <div class="step-container" id="0.11">
+      <div class="step-ref passed">11</div>
       
       <div class="step-cell passed">
-        <span>When</span>&nbsp;<span>method Post</span>
+        <span>And</span>&nbsp;<span>match response.tags contains [&#39;eos&#39;, &#39;est&#39;]</span>
       </div>
     </div>
-    <div class="time-cell passed">2540</div>
+    <div class="time-cell passed">53</div>
   </div>
 
    
@@ -198,36 +253,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
   
 
-  <div class="preformatted" data-parent="0.10">21:36:40.481 request:
-1 &gt; POST https://api.realworld.io/api/users/login
-1 &gt; Content-Type: application/json; charset=UTF-8
-1 &gt; Content-Length: 65
-1 &gt; Host: api.realworld.io
-1 &gt; Connection: Keep-Alive
-1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.1)
-1 &gt; Accept-Encoding: gzip,deflate
-{&quot;user&quot;:{&quot;email&quot;:&quot;testkarate1@test.cl&quot;,&quot;password&quot;:&quot;clave123456&quot;}}
-
-21:36:42.721 response time in milliseconds: 2239
-1 &lt; 200
-1 &lt; Date: Fri, 05 Jul 2024 01:36:42 GMT
-1 &lt; Content-Type: application/json; charset=utf-8
-1 &lt; Transfer-Encoding: chunked
-1 &lt; Connection: keep-alive
-1 &lt; Report-To: {&quot;group&quot;:&quot;heroku-nel&quot;,&quot;max_age&quot;:3600,&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https://nel.heroku.com/reports?ts=1720143402&amp;sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&amp;s=2WetqXlidjuz2%2FKXv09TNIL2XsP2ubDQLsoGrj%2FD2KU%3D&quot;}]}
-1 &lt; Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1720143402&amp;sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&amp;s=2WetqXlidjuz2%2FKXv09TNIL2XsP2ubDQLsoGrj%2FD2KU%3D
-1 &lt; Nel: {&quot;report_to&quot;:&quot;heroku-nel&quot;,&quot;max_age&quot;:3600,&quot;success_fraction&quot;:0.005,&quot;failure_fraction&quot;:0.05,&quot;response_headers&quot;:[&quot;Via&quot;]}
-1 &lt; X-Powered-By: Express
-1 &lt; Access-Control-Allow-Origin: *
-1 &lt; Etag: W/&quot;130-5BnMBhMkscgXNI7jzFxdv7ZpiwM&quot;
-1 &lt; Via: 1.1 vegur
-1 &lt; CF-Cache-Status: DYNAMIC
-1 &lt; Server: cloudflare
-1 &lt; CF-RAY: 89e3a0215ae0203a-EZE
-1 &lt; alt-svc: h3=&quot;:443&quot;; ma=86400
-{&quot;user&quot;:{&quot;email&quot;:&quot;testkarate1@test.cl&quot;,&quot;username&quot;:&quot;karatetest999&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot;https://api.realworld.io/images/smiley-cyrus.jpeg&quot;,&quot;token&quot;:&quot;eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjozMTgwNn0sImlhdCI6MTcyMDE0MzQwMiwiZXhwIjoxNzI1MzI3NDAyfQ.LDQcmP_JkzeBkeRILGXx_PX1SDiehIXDZQCEIrc7puc&quot;}}
-
-</div>   
+     
 
   
 
@@ -239,14 +265,42 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
   
 
   <div class="step-row">
-    <div class="step-container" id="0.11">
-      <div class="step-ref passed">11</div>
+    <div class="step-container" id="0.12">
+      <div class="step-ref passed">12</div>
       
       <div class="step-cell passed">
-        <span>Then</span>&nbsp;<span>status 200</span>
+        <span>And</span>&nbsp;<span>match response.tags !contains &#39;hola&#39;</span>
       </div>
     </div>
-    <div class="time-cell passed">0</div>
+    <div class="time-cell passed">3</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.13">
+      <div class="step-ref passed">13</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>match each response.tags == &quot;#string&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">4</div>
   </div>
 
    
