@@ -1,20 +1,15 @@
 Feature: Articles
-
 Background: Define URL
-    Given url 'https://api.realworld.io/api/'
-    * def tokenResponse = callonce read('classpath:helpers/CreateToken.feature') {"email": "testkarate1@test.cl","password": "clave123456"}
-    * def token = tokenResponse.authToken
+    Given url apiUrl
 
 Scenario: Create a new article
-    Given header Authorization = 'Token ' + token
     Given path 'articles'
-    And request {"article": {"title": "hola","description": "agwqsa","body": "wqrtegds","tagList": []}}
+    And request {"article": {"title": "bye11234","description": "agwqsa","body": "wqrtegds","tagList": []}}
     When method Post
     Then status 201
-    And match response.article.title == 'hola'
-@debug
+    And match response.article.title == 'bye11234'
+
 Scenario: Create and delete article
-    Given header Authorization = 'Token ' + token
     Given path 'articles'
     And request {"article": {"title": "Delete article 5","description": "agwqsa","body": "wqrtegds","tagList": []}}
     When method Post
@@ -27,7 +22,6 @@ Scenario: Create and delete article
     Then status 200
     #And match response.article[0].title == 'Delete Article 3'
 
-    Given header Authorization = 'Token ' + token
     Given path 'articles',articleId
     When method Delete
     Then status 204
