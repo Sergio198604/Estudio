@@ -1,4 +1,5 @@
 Feature: Articles
+
 Background: Define URL
     Given url apiUrl
 
