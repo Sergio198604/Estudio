@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="conduitApp.ConduitTest" time="6.394" tests="1" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="conduitApp.ConduitTest" time="8.486" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="CL"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21\bin"/>
-    <property name="sun.java.command" value="C:\Users\hyoga\AppData\Local\Temp\surefire1057550752535217764\surefirebooter-20240711140204657_3.jar C:\Users\hyoga\AppData\Local\Temp\surefire1057550752535217764 2024-07-11T14-02-04_460-jvmRun1 surefire-20240711140204657_1tmp surefire_0-20240711140204657_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\hyoga\AppData\Local\Temp\surefire7822679478987611538\surefirebooter-20240711231621292_3.jar C:\Users\hyoga\AppData\Local\Temp\surefire7822679478987611538 2024-07-11T23-16-21_107-jvmRun1 surefire-20240711231621292_1tmp surefire_0-20240711231621292_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\hyoga\KarateProject\Estudio\target\test-classes;C:\Users\hyoga\KarateProject\Estudio\target\classes;C:\Users\hyoga\.m2\repository\com\intuit\karate\karate-junit5\1.4.1\karate-junit5-1.4.1.jar;C:\Users\hyoga\.m2\repository\com\intuit\karate\karate-core\1.4.1\karate-core-1.4.1.jar;C:\Users\hyoga\.m2\repository\org\graalvm\js\js-scriptengine\22.3.3\js-scriptengine-22.3.3.jar;C:\Users\hyoga\.m2\repository\org\graalvm\sdk\graal-sdk\22.3.3\graal-sdk-22.3.3.jar;C:\Users\hyoga\.m2\repository\org\graalvm\js\js\22.3.3\js-22.3.3.jar;C:\Users\hyoga\.m2\repository\org\graalvm\regex\regex\22.3.3\regex-22.3.3.jar;C:\Users\hyoga\.m2\repository\org\graalvm\truffle\truffle-api\22.3.3\truffle-api-22.3.3.jar;C:\Users\hyoga\.m2\repository\com\ibm\icu\icu4j\71.1\icu4j-71.1.jar;C:\Users\hyoga\.m2\repository\org\thymeleaf\thymeleaf\3.1.2.RELEASE\thymeleaf-3.1.2.RELEASE.jar;C:\Users\hyoga\.m2\repository\ognl\ognl\3.3.4\ognl-3.3.4.jar;C:\Users\hyoga\.m2\repository\org\javassist\javassist\3.29.0-GA\javassist-3.29.0-GA.jar;C:\Users\hyoga\.m2\repository\org\attoparser\attoparser\2.0.7.RELEASE\attoparser-2.0.7.RELEASE.jar;C:\Users\hyoga\.m2\repository\org\unbescape\unbescape\1.1.6.RELEASE\unbescape-1.1.6.RELEASE.jar;C:\Users\hyoga\.m2\repository\org\slf4j\slf4j-api\2.0.7\slf4j-api-2.0.7.jar;C:\Users\hyoga\.m2\repository\com\linecorp\armeria\armeria\1.25.2\armeria-1.25.2.jar;C:\Users\hyoga\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.15.2\jackson-core-2.15.2.jar;C:\Users\hyoga\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.15.2\jackson-annotations-2.15.2.jar;C:\Users\hyoga\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.15.2\jackson-databind-2.15.2.jar;C:\Users\hyoga\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.15.2\jackson-datatype-jdk8-2.15.2.jar;C:\Users\hyoga\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.15.2\jackson-datatype-jsr310-2.15.2.jar;C:\Users\hyoga\.m2\repository\io\micrometer\micrometer-core\1.11.3\micrometer-core-1.11.3.jar;C:\Users\hyoga\.m2\repository\io\micrometer\micrometer-commons\1.11.3\micrometer-commons-1.11.3.jar;C:\Users\hyoga\.m2\repository\io\micrometer\micrometer-observation\1.11.3\micrometer-observation-1.11.3.jar;C:\Users\hyoga\.m2\repository\org\hdrhistogram\HdrHistogram\2.1.12\HdrHistogram-2.1.12.jar;C:\Users\hyoga\.m2\repository\org\latencyutils\LatencyUtils\2.0.3\LatencyUtils-2.0.3.jar;C:\Users\hyoga\.m2\repository\io\netty\netty-transport\4.1.96.Final\netty-transport-4.1.96.Final.jar;C:\Users\hyoga\.m2\repository\io\netty\netty-common\4.1.96.Final\netty-common-4.1.96.Final.jar;C:\Users\hyoga\.m2\repository\io\netty\netty-buffer\4.1.96.Final\netty-buffer-4.1.96.Final.jar;C:\Users\hyoga\.m2\repository\io\netty\netty-resolver\4.1.96.Final\netty-resolver-4.1.96.Final.jar;C:\Users\hyoga\.m2\repository\io\netty\netty-codec-haproxy\4.1.96.Final\netty-codec-haproxy-4.1.96.Final.jar;C:\Users\hyoga\.m2\repository\io\netty\netty-codec\4.1.96.Final\netty-codec-4.1.96.Final.jar;C:\Users\hyoga\.m2\repository\io\netty\netty-codec-http2\4.1.96.Final\netty-codec-http2-4.1.96.Final.jar;C:\Users\hyoga\.m2\repository\io\netty\netty-handler\4.1.96.Final\netty-handler-4.1.96.Final.jar;C:\Users\hyoga\.m2\repository\io\netty\netty-codec-http\4.1.96.Final\netty-codec-http-4.1.96.Final.jar;C:\Users\hyoga\.m2\repository\io\netty\netty-resolver-dns\4.1.96.Final\netty-resolver-dns-4.1.96.Final.jar;C:\Users\hyoga\.m2\repository\io\netty\netty-codec-dns\4.1.96.Final\netty-codec-dns-4.1.96.Final.jar;C:\Users\hyoga\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\hyoga\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\hyoga\.m2\repository\io\netty\netty-handler-proxy\4.1.96.Final\netty-handler-proxy-4.1.96.Final.jar;C:\Users\hyoga\.m2\repository\io\netty\netty-codec-socks\4.1.96.Final\netty-codec-socks-4.1.96.Final.jar;C:\Users\hyoga\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.96.Final\netty-transport-native-unix-common-4.1.96.Final-linux-x86_64.jar;C:\Users\hyoga\.m2\repository\io\netty\netty-transport-native-epoll\4.1.96.Final\netty-transport-native-epoll-4.1.96.Final-linux-x86_64.jar;C:\Users\hyoga\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.96.Final\netty-transport-native-unix-common-4.1.96.Final.jar;C:\Users\hyoga\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.96.Final\netty-transport-classes-epoll-4.1.96.Final.jar;C:\Users\hyoga\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.96.Final\netty-transport-native-unix-common-4.1.96.Final-linux-aarch_64.jar;C:\Users\hyoga\.m2\repository\io\netty\netty-transport-native-epoll\4.1.96.Final\netty-transport-native-epoll-4.1.96.Final-linux-aarch_64.jar;C:\Users\hyoga\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.96.Final\netty-transport-native-unix-common-4.1.96.Final-osx-x86_64.jar;C:\Users\hyoga\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.96.Final\netty-transport-native-kqueue-4.1.96.Final-osx-x86_64.jar;C:\Users\hyoga\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.96.Final\netty-transport-classes-kqueue-4.1.96.Final.jar;C:\Users\hyoga\.m2\repository\io\netty\netty-resolver-dns-native-macos\4.1.96.Final\netty-resolver-dns-native-macos-4.1.96.Final-osx-x86_64.jar;C:\Users\hyoga\.m2\repository\io\netty\netty-resolver-dns-classes-macos\4.1.96.Final\netty-resolver-dns-classes-macos-4.1.96.Final.jar;C:\Users\hyoga\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.96.Final\netty-transport-native-unix-common-4.1.96.Final-osx-aarch_64.jar;C:\Users\hyoga\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.96.Final\netty-transport-native-kqueue-4.1.96.Final-osx-aarch_64.jar;C:\Users\hyoga\.m2\repository\io\netty\netty-resolver-dns-native-macos\4.1.96.Final\netty-resolver-dns-native-macos-4.1.96.Final-osx-aarch_64.jar;C:\Users\hyoga\.m2\repository\io\netty\netty-tcnative-boringssl-static\2.0.61.Final\netty-tcnative-boringssl-static-2.0.61.Final-linux-x86_64.jar;C:\Users\hyoga\.m2\repository\io\netty\netty-tcnative-classes\2.0.61.Final\netty-tcnative-classes-2.0.61.Final.jar;C:\Users\hyoga\.m2\repository\io\netty\netty-tcnative-boringssl-static\2.0.61.Final\netty-tcnative-boringssl-static-2.0.61.Final-linux-aarch_64.jar;C:\Users\hyoga\.m2\repository\io\netty\netty-tcnative-boringssl-static\2.0.61.Final\netty-tcnative-boringssl-static-2.0.61.Final-osx-x86_64.jar;C:\Users\hyoga\.m2\repository\io\netty\netty-tcnative-boringssl-static\2.0.61.Final\netty-tcnative-boringssl-static-2.0.61.Final-osx-aarch_64.jar;C:\Users\hyoga\.m2\repository\io\netty\netty-tcnative-boringssl-static\2.0.61.Final\netty-tcnative-boringssl-static-2.0.61.Final-windows-x86_64.jar;C:\Users\hyoga\.m2\repository\com\aayushatharva\brotli4j\brotli4j\1.12.0\brotli4j-1.12.0.jar;C:\Users\hyoga\.m2\repository\com\aayushatharva\brotli4j\service\1.12.0\service-1.12.0.jar;C:\Users\hyoga\.m2\repository\com\aayushatharva\brotli4j\native-windows-x86_64\1.12.0\native-windows-x86_64-1.12.0.jar;C:\Users\hyoga\.m2\repository\org\apache\httpcomponents\httpclient\4.5.14\httpclient-4.5.14.jar;C:\Users\hyoga\.m2\repository\org\apache\httpcomponents\httpcore\4.4.16\httpcore-4.4.16.jar;C:\Users\hyoga\.m2\repository\commons-codec\commons-codec\1.16.0\commons-codec-1.16.0.jar;C:\Users\hyoga\.m2\repository\ch\qos\logback\logback-classic\1.4.11\logback-classic-1.4.11.jar;C:\Users\hyoga\.m2\repository\ch\qos\logback\logback-core\1.4.11\logback-core-1.4.11.jar;C:\Users\hyoga\.m2\repository\org\slf4j\jcl-over-slf4j\2.0.9\jcl-over-slf4j-2.0.9.jar;C:\Users\hyoga\.m2\repository\org\antlr\antlr4-runtime\4.11.1\antlr4-runtime-4.11.1.jar;C:\Users\hyoga\.m2\repository\com\jayway\jsonpath\json-path\2.8.0\json-path-2.8.0.jar;C:\Users\hyoga\.m2\repository\net\minidev\json-smart\2.4.10\json-smart-2.4.10.jar;C:\Users\hyoga\.m2\repository\net\minidev\accessors-smart\2.4.9\accessors-smart-2.4.9.jar;C:\Users\hyoga\.m2\repository\org\ow2\asm\asm\9.3\asm-9.3.jar;C:\Users\hyoga\.m2\repository\org\yaml\snakeyaml\2.0\snakeyaml-2.0.jar;C:\Users\hyoga\.m2\repository\de\siegmar\fastcsv\2.2.1\fastcsv-2.2.1.jar;C:\Users\hyoga\.m2\repository\info\picocli\picocli\4.7.1\picocli-4.7.1.jar;C:\Users\hyoga\.m2\repository\io\github\classgraph\classgraph\4.8.160\classgraph-4.8.160.jar;C:\Users\hyoga\.m2\repository\io\github\t12y\resemble\1.0.2\resemble-1.0.2.jar;C:\Users\hyoga\.m2\repository\io\github\t12y\ssim\1.0.0\ssim-1.0.0.jar;C:\Users\hyoga\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.3\junit-jupiter-api-5.9.3.jar;C:\Users\hyoga\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\hyoga\.m2\repository\org\junit\platform\junit-platform-commons\1.9.3\junit-platform-commons-1.9.3.jar;C:\Users\hyoga\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\hyoga\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.3\junit-jupiter-engine-5.9.3.jar;C:\Users\hyoga\.m2\repository\org\junit\platform\junit-platform-engine\1.9.3\junit-platform-engine-1.9.3.jar;C:\Users\hyoga\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\hyoga\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\hyoga\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\hyoga\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\hyoga\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -31,7 +31,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="karate.options" value="--tags @debug"/>
-    <property name="surefire.real.class.path" value="C:\Users\hyoga\AppData\Local\Temp\surefire1057550752535217764\surefirebooter-20240711140204657_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\hyoga\AppData\Local\Temp\surefire7822679478987611538\surefirebooter-20240711231621292_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21.0.1+12-LTS-29"/>
@@ -59,104 +59,13 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="testParallel" classname="conduitApp.ConduitTest" time="6.359">
-    <failure message="match failed: EQUALS&#10;  $ | not equal | match failed for name: &apos;user&apos; (MAP:MAP)&#10;  {&quot;user&quot;:{&quot;id&quot;:41175,&quot;email&quot;:&quot;hipolito74@test.com&quot;,&quot;username&quot;:&quot;tisha.sporer&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot;https://api.realworld.io/images/smiley-cyrus.jpeg&quot;,&quot;token&quot;:&quot;eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjo0MTE3NX0sImlhdCI6MTcyMDcyMDkzMCwiZXhwIjoxNzI1OTA0OTMwfQ.5m3LStoiI7pSZOgSyj6MsXJn9A9fZcISAAe__dd_8fI&quot;}}&#10;  {&quot;user&quot;:{&quot;id&quot;:&quot;41175&quot;,&quot;email&quot;:&quot;hipolito74@test.com&quot;,&quot;username&quot;:&quot;tisha.sporer&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot; https://api.realworld.io/images/smiley-cyrus.jpeg&quot;,&quot;token&quot;:&quot;#string&quot;}}&#10;&#10;    $.user | not equal | match failed for name: &apos;id&apos; (MAP:MAP)&#10;    {&quot;id&quot;:41175,&quot;email&quot;:&quot;hipolito74@test.com&quot;,&quot;username&quot;:&quot;tisha.sporer&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot;https://api.realworld.io/images/smiley-cyrus.jpeg&quot;,&quot;token&quot;:&quot;eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjo0MTE3NX0sImlhdCI6MTcyMDcyMDkzMCwiZXhwIjoxNzI1OTA0OTMwfQ.5m3LStoiI7pSZOgSyj6MsXJn9A9fZcISAAe__dd_8fI&quot;}&#10;    {&quot;id&quot;:&quot;41175&quot;,&quot;email&quot;:&quot;hipolito74@test.com&quot;,&quot;username&quot;:&quot;tisha.sporer&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot; https://api.realworld.io/images/smiley-cyrus.jpeg&quot;,&quot;token&quot;:&quot;#string&quot;}&#10;&#10;      $.user.id | data types don&apos;t match (NUMBER:STRING)&#10;      41175&#10;      &apos;41175&apos;&#10;&#10;classpath:conduitApp/feature/SignUp.feature:25 ==&gt; expected: &lt;0&gt; but was: &lt;1&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: 
-match failed: EQUALS
-  $ | not equal | match failed for name: 'user' (MAP:MAP)
-  {"user":{"id":41175,"email":"hipolito74@test.com","username":"tisha.sporer","bio":null,"image":"https://api.realworld.io/images/smiley-cyrus.jpeg","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjo0MTE3NX0sImlhdCI6MTcyMDcyMDkzMCwiZXhwIjoxNzI1OTA0OTMwfQ.5m3LStoiI7pSZOgSyj6MsXJn9A9fZcISAAe__dd_8fI"}}
-  {"user":{"id":"41175","email":"hipolito74@test.com","username":"tisha.sporer","bio":null,"image":" https://api.realworld.io/images/smiley-cyrus.jpeg","token":"#string"}}
-
-    $.user | not equal | match failed for name: 'id' (MAP:MAP)
-    {"id":41175,"email":"hipolito74@test.com","username":"tisha.sporer","bio":null,"image":"https://api.realworld.io/images/smiley-cyrus.jpeg","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjo0MTE3NX0sImlhdCI6MTcyMDcyMDkzMCwiZXhwIjoxNzI1OTA0OTMwfQ.5m3LStoiI7pSZOgSyj6MsXJn9A9fZcISAAe__dd_8fI"}
-    {"id":"41175","email":"hipolito74@test.com","username":"tisha.sporer","bio":null,"image":" https://api.realworld.io/images/smiley-cyrus.jpeg","token":"#string"}
-
-      $.user.id | data types don't match (NUMBER:STRING)
-      41175
-      '41175'
-
-classpath:conduitApp/feature/SignUp.feature:25 ==> expected: <0> but was: <1>
-	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
-	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
-	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
-	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:150)
-	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:560)
-	at conduitApp.ConduitTest.testParallel(ConduitTest.java:15)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:727)
-	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
-	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
-	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156)
-	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147)
-	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86)
-	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103)
-	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93)
-	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
-	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
-	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
-	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
-	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92)
-	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86)
-	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:217)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:213)
-	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:138)
-	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:68)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
-	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
-	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
-	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
-	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
-	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
-	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:147)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:127)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:90)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:55)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:102)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:54)
-	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:114)
-	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:86)
-	at org.junit.platform.launcher.core.DefaultLauncherSession$DelegatingLauncher.execute(DefaultLauncherSession.java:86)
-	at org.apache.maven.surefire.junitplatform.LazyLauncher.execute(LazyLauncher.java:50)
-	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:184)
-	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:148)
-	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:122)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-]]></failure>
-    <system-out><![CDATA[14:02:06.108 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': --tags @debug
-14:02:07.243 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
-14:02:07.247 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1720720927243
-14:02:08.621 [main] INFO  com.intuit.karate - karate.env system property was: null 
-14:02:08.639 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:helpers/CreateToken.feature
-14:02:09.036 [main] DEBUG com.intuit.karate - request:
+  <testcase name="testParallel" classname="conduitApp.ConduitTest" time="8.457">
+    <system-out><![CDATA[23:16:22.554 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': --tags @debug
+23:16:23.770 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+23:16:23.774 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1720754183771
+23:16:25.210 [main] INFO  com.intuit.karate - karate.env system property was: null 
+23:16:25.219 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:helpers/CreateToken.feature
+23:16:25.675 [main] DEBUG com.intuit.karate - request:
 1 > POST https://api.realworld.io/api/users/login
 1 > Content-Type: application/json; charset=UTF-8
 1 > Content-Length: 65
@@ -166,113 +75,153 @@ classpath:conduitApp/feature/SignUp.feature:25 ==> expected: <0> but was: <1>
 1 > Accept-Encoding: gzip,deflate
 {"user":{"email":"testkarate1@test.cl","password":"clave123456"}}
 
-14:02:10.011 [main] DEBUG com.intuit.karate - response time in milliseconds: 965
+23:16:26.693 [main] DEBUG com.intuit.karate - response time in milliseconds: 1007
 1 < 200
-1 < Date: Thu, 11 Jul 2024 18:02:09 GMT
+1 < Date: Fri, 12 Jul 2024 03:16:26 GMT
 1 < Content-Type: application/json; charset=utf-8
 1 < Transfer-Encoding: chunked
 1 < Connection: keep-alive
-1 < Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1720720929&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=DpKSpmP1HPOJGCsacYLNlfWM%2FiqB5Ie0gdO412CyJbw%3D"}]}
-1 < Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1720720929&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=DpKSpmP1HPOJGCsacYLNlfWM%2FiqB5Ie0gdO412CyJbw%3D
+1 < Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1720754186&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=a%2FyWCtOnep%2F5WXw%2Flv%2FW3t2wtszo9GWsotgxslU5tDo%3D"}]}
+1 < Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1720754186&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=a%2FyWCtOnep%2F5WXw%2Flv%2FW3t2wtszo9GWsotgxslU5tDo%3D
 1 < Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
 1 < X-Powered-By: Express
 1 < Access-Control-Allow-Origin: *
-1 < Etag: W/"130-NrWb+OluJ/owdRukPP3raW8GOyI"
+1 < Etag: W/"130-nkdJO5H6n6YxjOBpVWuKfbNtEsI"
 1 < Via: 1.1 vegur
 1 < CF-Cache-Status: DYNAMIC
 1 < Server: cloudflare
-1 < CF-RAY: 8a1ab3f14849a796-EZE
+1 < CF-RAY: 8a1ddfdf4ff6a796-EZE
 1 < alt-svc: h3=":443"; ma=86400
-{"user":{"email":"testkarate1@test.cl","username":"karatetest999","bio":null,"image":"https://api.realworld.io/images/smiley-cyrus.jpeg","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjozMTgwNn0sImlhdCI6MTcyMDcyMDkyOSwiZXhwIjoxNzI1OTA0OTI5fQ.WIDFs0z1zRM3WJ5jvYyUkAOq2DAVQ0XAaU2BptPV4wk"}}
+{"user":{"email":"testkarate1@test.cl","username":"karatetest999","bio":null,"image":"https://api.realworld.io/images/smiley-cyrus.jpeg","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjozMTgwNn0sImlhdCI6MTcyMDc1NDE4NiwiZXhwIjoxNzI1OTM4MTg2fQ.J1f4naRaTwNgH7wyxdef6a0DLlwswWXt0CidxrFxIIE"}}
 
-14:02:10.049 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:helpers/CreateToken.feature
-14:02:10.306 [main] DEBUG com.intuit.karate - request:
-1 > POST https://api.realworld.io/api/users
-1 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjozMTgwNn0sImlhdCI6MTcyMDcyMDkyOSwiZXhwIjoxNzI1OTA0OTI5fQ.WIDFs0z1zRM3WJ5jvYyUkAOq2DAVQ0XAaU2BptPV4wk
+23:16:26.725 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:helpers/CreateToken.feature
+23:16:26.994 [main] INFO  com.intuit.karate - [print] Tristan Mudd 
+23:16:26.997 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.realworld.io/api/articles
+1 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjozMTgwNn0sImlhdCI6MTcyMDc1NDE4NiwiZXhwIjoxNzI1OTM4MTg2fQ.J1f4naRaTwNgH7wyxdef6a0DLlwswWXt0CidxrFxIIE
 1 > Content-Type: application/json; charset=UTF-8
-1 > Content-Length: 89
+1 > Content-Length: 114
 1 > Host: api.realworld.io
 1 > Connection: Keep-Alive
 1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.1)
 1 > Accept-Encoding: gzip,deflate
-{"user":{"email":"hipolito74@test.com","password":"clave7890","username":"tisha.sporer"}}
+{"article":{"title":"Tristan Mudd","description":"Tyrosh","body":"Every flight begins with a fall.","tagList":[]}}
 
-14:02:10.954 [main] DEBUG com.intuit.karate - response time in milliseconds: 648
+23:16:27.598 [main] DEBUG com.intuit.karate - response time in milliseconds: 600
 1 < 201
-1 < Date: Thu, 11 Jul 2024 18:02:10 GMT
+1 < Date: Fri, 12 Jul 2024 03:16:27 GMT
 1 < Content-Type: application/json; charset=utf-8
-1 < Content-Length: 314
+1 < Content-Length: 384
 1 < Connection: keep-alive
-1 < Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1720720930&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=XTVmnAjWOE8zZjCW6Z91Ohnp1Jsw%2Fy51fAUZ4%2BUZnn4%3D"}]}
-1 < Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1720720930&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=XTVmnAjWOE8zZjCW6Z91Ohnp1Jsw%2Fy51fAUZ4%2BUZnn4%3D
+1 < Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1720754187&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=sLNXGxRYSWI%2FsM7x0IFPWHtmelS2G4kmxNvf4HL1zIo%3D"}]}
+1 < Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1720754187&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=sLNXGxRYSWI%2FsM7x0IFPWHtmelS2G4kmxNvf4HL1zIo%3D
 1 < Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
 1 < X-Powered-By: Express
 1 < Access-Control-Allow-Origin: *
-1 < Etag: W/"13a-hcB0eAsi9R9jTxxUZN/QHJL6+tA"
+1 < Etag: W/"180-agFOkbYbZIzE7gZC+v2YeOUVH9k"
 1 < Via: 1.1 vegur
 1 < CF-Cache-Status: DYNAMIC
 1 < Server: cloudflare
-1 < CF-RAY: 8a1ab3f7dc3dae84-GRU
+1 < CF-RAY: 8a1ddfe5fb420184-GRU
 1 < alt-svc: h3=":443"; ma=86400
-{"user":{"id":41175,"email":"hipolito74@test.com","username":"tisha.sporer","bio":null,"image":"https://api.realworld.io/images/smiley-cyrus.jpeg","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjo0MTE3NX0sImlhdCI6MTcyMDcyMDkzMCwiZXhwIjoxNzI1OTA0OTMwfQ.5m3LStoiI7pSZOgSyj6MsXJn9A9fZcISAAe__dd_8fI"}}
+{"article":{"slug":"Tristan-Mudd-31806","title":"Tristan Mudd","description":"Tyrosh","body":"Every flight begins with a fall.","tagList":[],"createdAt":"2024-07-12T03:16:27.420Z","updatedAt":"2024-07-12T03:16:27.420Z","favorited":false,"favoritesCount":0,"author":{"username":"karatetest999","bio":null,"image":"https://api.realworld.io/images/smiley-cyrus.jpeg","following":false}}}
 
-14:02:10.976 [main] ERROR com.intuit.karate - classpath:conduitApp/feature/SignUp.feature:25
-And match response ==
-"""
-{
-    "user": {
-        "id": '41175',
-        "email": #(randomEmail),
-        "username": #(randomUsername),
-        "bio": null,
-        "image":" https://api.realworld.io/images/smiley-cyrus.jpeg",
-        "token": "#string"
-    }
-}
-"""
-match failed: EQUALS
-  $ | not equal | match failed for name: 'user' (MAP:MAP)
-  {"user":{"id":41175,"email":"hipolito74@test.com","username":"tisha.sporer","bio":null,"image":"https://api.realworld.io/images/smiley-cyrus.jpeg","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjo0MTE3NX0sImlhdCI6MTcyMDcyMDkzMCwiZXhwIjoxNzI1OTA0OTMwfQ.5m3LStoiI7pSZOgSyj6MsXJn9A9fZcISAAe__dd_8fI"}}
-  {"user":{"id":"41175","email":"hipolito74@test.com","username":"tisha.sporer","bio":null,"image":" https://api.realworld.io/images/smiley-cyrus.jpeg","token":"#string"}}
+23:16:27.617 [main] DEBUG com.intuit.karate - request:
+2 > GET https://api.realworld.io/api/articles?offset=0&limit=10
+2 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjozMTgwNn0sImlhdCI6MTcyMDc1NDE4NiwiZXhwIjoxNzI1OTM4MTg2fQ.J1f4naRaTwNgH7wyxdef6a0DLlwswWXt0CidxrFxIIE
+2 > Host: api.realworld.io
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.1)
+2 > Accept-Encoding: gzip,deflate
 
-    $.user | not equal | match failed for name: 'id' (MAP:MAP)
-    {"id":41175,"email":"hipolito74@test.com","username":"tisha.sporer","bio":null,"image":"https://api.realworld.io/images/smiley-cyrus.jpeg","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjo0MTE3NX0sImlhdCI6MTcyMDcyMDkzMCwiZXhwIjoxNzI1OTA0OTMwfQ.5m3LStoiI7pSZOgSyj6MsXJn9A9fZcISAAe__dd_8fI"}
-    {"id":"41175","email":"hipolito74@test.com","username":"tisha.sporer","bio":null,"image":" https://api.realworld.io/images/smiley-cyrus.jpeg","token":"#string"}
 
-      $.user.id | data types don't match (NUMBER:STRING)
-      41175
-      '41175'
+23:16:28.208 [main] DEBUG com.intuit.karate - response time in milliseconds: 588
+2 < 200
+2 < Date: Fri, 12 Jul 2024 03:16:28 GMT
+2 < Content-Type: application/json; charset=utf-8
+2 < Transfer-Encoding: chunked
+2 < Connection: keep-alive
+2 < Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1720754187&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=sLNXGxRYSWI%2FsM7x0IFPWHtmelS2G4kmxNvf4HL1zIo%3D"}]}
+2 < Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1720754187&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=sLNXGxRYSWI%2FsM7x0IFPWHtmelS2G4kmxNvf4HL1zIo%3D
+2 < Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+2 < X-Powered-By: Express
+2 < Access-Control-Allow-Origin: *
+2 < Etag: W/"f80-cvHu2HB3uTXLo4xBxWyJn/8SDl4"
+2 < Via: 1.1 vegur
+2 < CF-Cache-Status: DYNAMIC
+2 < Server: cloudflare
+2 < CF-RAY: 8a1ddfe95ef91ffc-EZE
+2 < alt-svc: h3=":443"; ma=86400
+{"articles":[{"slug":"Tristan-Mudd-31806","title":"Tristan Mudd","description":"Tyrosh","body":"Every flight begins with a fall.","tagList":[],"createdAt":"2024-07-12T03:16:27.420Z","updatedAt":"2024-07-12T03:16:27.420Z","favorited":false,"favoritesCount":0,"author":{"username":"karatetest999","bio":null,"image":"https://api.realworld.io/images/smiley-cyrus.jpeg","following":false}},{"slug":"Ellyn-Tarbeck-31806","title":"Ellyn Tarbeck","description":"Gulltown","body":"Things are not always as they seemed, much that may seem evil can be good.","tagList":[],"createdAt":"2024-07-12T03:07:29.783Z","updatedAt":"2024-07-12T03:07:29.783Z","favorited":false,"favoritesCount":0,"author":{"username":"karatetest999","bio":null,"image":"https://api.realworld.io/images/smiley-cyrus.jpeg","following":false}},{"slug":"Ellaria-Sand-31806","title":"Ellaria Sand","description":"Pentos","body":"Things are not always as they seemed, much that may seem evil can be good.","tagList":[],"createdAt":"2024-07-12T03:07:03.604Z","updatedAt":"2024-07-12T03:07:03.604Z","favorited":false,"favoritesCount":0,"author":{"username":"karatetest999","bio":null,"image":"https://api.realworld.io/images/smiley-cyrus.jpeg","following":false}},{"slug":"Willit-31806","title":"Willit","description":"King's Landing","body":"The North remembers.","tagList":[],"createdAt":"2024-07-12T03:03:56.908Z","updatedAt":"2024-07-12T03:03:56.908Z","favorited":false,"favoritesCount":0,"author":{"username":"karatetest999","bio":null,"image":"https://api.realworld.io/images/smiley-cyrus.jpeg","following":false}},{"slug":"delete-article-1-31806","title":"delete article 1","description":"agwqsa","body":"wqrtegds","tagList":[],"createdAt":"2024-07-12T03:02:56.919Z","updatedAt":"2024-07-12T03:02:56.919Z","favorited":false,"favoritesCount":0,"author":{"username":"karatetest999","bio":null,"image":"https://api.realworld.io/images/smiley-cyrus.jpeg","following":false}},{"slug":"Pearse-Caron-31806","title":"Pearse Caron","description":"Tyrosh","body":"Do the dead frighten you?","tagList":[],"createdAt":"2024-07-12T03:01:13.914Z","updatedAt":"2024-07-12T03:01:13.914Z","favorited":false,"favoritesCount":0,"author":{"username":"karatetest999","bio":null,"image":"https://api.realworld.io/images/smiley-cyrus.jpeg","following":false}},{"slug":"Dontos-Hollard-31806","title":"Dontos Hollard","description":"Braavos","body":"Some old wounds never truly heal, and bleed again at the slightest word.","tagList":[],"createdAt":"2024-07-12T03:00:47.181Z","updatedAt":"2024-07-12T03:00:47.181Z","favorited":false,"favoritesCount":0,"author":{"username":"karatetest999","bio":null,"image":"https://api.realworld.io/images/smiley-cyrus.jpeg","following":false}},{"slug":"Mago-31806","title":"Mago","description":"Tyria","body":"... a mind needs books as a sword needs a whetstone, if it is to keep its edge.","tagList":[],"createdAt":"2024-07-12T02:59:14.178Z","updatedAt":"2024-07-12T02:59:14.178Z","favorited":false,"favoritesCount":0,"author":{"username":"karatetest999","bio":null,"image":"https://api.realworld.io/images/smiley-cyrus.jpeg","following":false}},{"slug":"The-Great-Walrus-31806","title":"The Great Walrus","description":"Qohor","body":"There are no heroes...in life, the monsters win.","tagList":[],"createdAt":"2024-07-12T02:58:16.546Z","updatedAt":"2024-07-12T02:58:16.546Z","favorited":false,"favoritesCount":0,"author":{"username":"karatetest999","bio":null,"image":"https://api.realworld.io/images/smiley-cyrus.jpeg","following":false}},{"slug":"Karlon-Stark-31806","title":"Karlon Stark","description":"Sar Meel","body":"When the snows fall and the white winds blow, the lone wolf dies but the pack survives.","tagList":[],"createdAt":"2024-07-12T02:56:35.979Z","updatedAt":"2024-07-12T02:56:35.979Z","favorited":false,"favoritesCount":0,"author":{"username":"karatetest999","bio":null,"image":"https://api.realworld.io/images/smiley-cyrus.jpeg","following":false}}],"articlesCount":320}
 
-classpath:conduitApp/feature/SignUp.feature:25
+23:16:28.272 [main] DEBUG com.intuit.karate - request:
+3 > DELETE https://api.realworld.io/api/articles/Tristan-Mudd-31806
+3 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjozMTgwNn0sImlhdCI6MTcyMDc1NDE4NiwiZXhwIjoxNzI1OTM4MTg2fQ.J1f4naRaTwNgH7wyxdef6a0DLlwswWXt0CidxrFxIIE
+3 > Host: api.realworld.io
+3 > Connection: Keep-Alive
+3 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.1)
+3 > Accept-Encoding: gzip,deflate
+
+
+23:16:28.810 [main] DEBUG com.intuit.karate - response time in milliseconds: 536
+3 < 204
+3 < Date: Fri, 12 Jul 2024 03:16:28 GMT
+3 < Content-Length: 0
+3 < Connection: keep-alive
+3 < Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1720754188&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=8lpVcw4%2FSToRZyEW7FdeGSaaYZB69zjHwBiVo9CpeOY%3D"}]}
+3 < Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1720754188&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=8lpVcw4%2FSToRZyEW7FdeGSaaYZB69zjHwBiVo9CpeOY%3D
+3 < Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+3 < X-Powered-By: Express
+3 < Access-Control-Allow-Origin: *
+3 < Etag: W/"a-bAsFyilMr4Ra1hIU5PyoyFRunpI"
+3 < Via: 1.1 vegur
+3 < CF-Cache-Status: DYNAMIC
+3 < Server: cloudflare
+3 < CF-RAY: 8a1ddfed5da3a79c-EZE
+3 < alt-svc: h3=":443"; ma=86400
+
+
+23:16:28.818 [main] DEBUG com.intuit.karate - request:
+4 > GET https://api.realworld.io/api/articles?offset=0&limit=10
+4 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjozMTgwNn0sImlhdCI6MTcyMDc1NDE4NiwiZXhwIjoxNzI1OTM4MTg2fQ.J1f4naRaTwNgH7wyxdef6a0DLlwswWXt0CidxrFxIIE
+4 > Host: api.realworld.io
+4 > Connection: Keep-Alive
+4 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.1)
+4 > Accept-Encoding: gzip,deflate
+
+
+23:16:29.420 [main] DEBUG com.intuit.karate - response time in milliseconds: 600
+4 < 200
+4 < Date: Fri, 12 Jul 2024 03:16:29 GMT
+4 < Content-Type: application/json; charset=utf-8
+4 < Transfer-Encoding: chunked
+4 < Connection: keep-alive
+4 < Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1720754189&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=YiOl28CnFOTvIy0tACNvDd%2BQG9oe5ovPmPPtP6TiA98%3D"}]}
+4 < Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1720754189&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=YiOl28CnFOTvIy0tACNvDd%2BQG9oe5ovPmPPtP6TiA98%3D
+4 < Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+4 < X-Powered-By: Express
+4 < Access-Control-Allow-Origin: *
+4 < Etag: W/"fc4-mU/XPoiCG84uPVGXNXliGxTn2ys"
+4 < Via: 1.1 vegur
+4 < CF-Cache-Status: DYNAMIC
+4 < Server: cloudflare
+4 < CF-RAY: 8a1ddff0ce25a77c-EZE
+4 < alt-svc: h3=":443"; ma=86400
+{"articles":[{"slug":"Ellyn-Tarbeck-31806","title":"Ellyn Tarbeck","description":"Gulltown","body":"Things are not always as they seemed, much that may seem evil can be good.","tagList":[],"createdAt":"2024-07-12T03:07:29.783Z","updatedAt":"2024-07-12T03:07:29.783Z","favorited":false,"favoritesCount":0,"author":{"username":"karatetest999","bio":null,"image":"https://api.realworld.io/images/smiley-cyrus.jpeg","following":false}},{"slug":"Ellaria-Sand-31806","title":"Ellaria Sand","description":"Pentos","body":"Things are not always as they seemed, much that may seem evil can be good.","tagList":[],"createdAt":"2024-07-12T03:07:03.604Z","updatedAt":"2024-07-12T03:07:03.604Z","favorited":false,"favoritesCount":0,"author":{"username":"karatetest999","bio":null,"image":"https://api.realworld.io/images/smiley-cyrus.jpeg","following":false}},{"slug":"Willit-31806","title":"Willit","description":"King's Landing","body":"The North remembers.","tagList":[],"createdAt":"2024-07-12T03:03:56.908Z","updatedAt":"2024-07-12T03:03:56.908Z","favorited":false,"favoritesCount":0,"author":{"username":"karatetest999","bio":null,"image":"https://api.realworld.io/images/smiley-cyrus.jpeg","following":false}},{"slug":"delete-article-1-31806","title":"delete article 1","description":"agwqsa","body":"wqrtegds","tagList":[],"createdAt":"2024-07-12T03:02:56.919Z","updatedAt":"2024-07-12T03:02:56.919Z","favorited":false,"favoritesCount":0,"author":{"username":"karatetest999","bio":null,"image":"https://api.realworld.io/images/smiley-cyrus.jpeg","following":false}},{"slug":"Pearse-Caron-31806","title":"Pearse Caron","description":"Tyrosh","body":"Do the dead frighten you?","tagList":[],"createdAt":"2024-07-12T03:01:13.914Z","updatedAt":"2024-07-12T03:01:13.914Z","favorited":false,"favoritesCount":0,"author":{"username":"karatetest999","bio":null,"image":"https://api.realworld.io/images/smiley-cyrus.jpeg","following":false}},{"slug":"Dontos-Hollard-31806","title":"Dontos Hollard","description":"Braavos","body":"Some old wounds never truly heal, and bleed again at the slightest word.","tagList":[],"createdAt":"2024-07-12T03:00:47.181Z","updatedAt":"2024-07-12T03:00:47.181Z","favorited":false,"favoritesCount":0,"author":{"username":"karatetest999","bio":null,"image":"https://api.realworld.io/images/smiley-cyrus.jpeg","following":false}},{"slug":"Mago-31806","title":"Mago","description":"Tyria","body":"... a mind needs books as a sword needs a whetstone, if it is to keep its edge.","tagList":[],"createdAt":"2024-07-12T02:59:14.178Z","updatedAt":"2024-07-12T02:59:14.178Z","favorited":false,"favoritesCount":0,"author":{"username":"karatetest999","bio":null,"image":"https://api.realworld.io/images/smiley-cyrus.jpeg","following":false}},{"slug":"The-Great-Walrus-31806","title":"The Great Walrus","description":"Qohor","body":"There are no heroes...in life, the monsters win.","tagList":[],"createdAt":"2024-07-12T02:58:16.546Z","updatedAt":"2024-07-12T02:58:16.546Z","favorited":false,"favoritesCount":0,"author":{"username":"karatetest999","bio":null,"image":"https://api.realworld.io/images/smiley-cyrus.jpeg","following":false}},{"slug":"Karlon-Stark-31806","title":"Karlon Stark","description":"Sar Meel","body":"When the snows fall and the white winds blow, the lone wolf dies but the pack survives.","tagList":[],"createdAt":"2024-07-12T02:56:35.979Z","updatedAt":"2024-07-12T02:56:35.979Z","favorited":false,"favoritesCount":0,"author":{"username":"karatetest999","bio":null,"image":"https://api.realworld.io/images/smiley-cyrus.jpeg","following":false}},{"slug":"Carolei-Waynwood-31806","title":"Carolei Waynwood","description":"Samyrian","body":"Give me honorable enemies rather than ambitious ones, and I'll sleep more easily by night.","tagList":[],"createdAt":"2024-07-12T02:55:23.332Z","updatedAt":"2024-07-12T02:55:23.332Z","favorited":false,"favoritesCount":0,"author":{"username":"karatetest999","bio":null,"image":"https://api.realworld.io/images/smiley-cyrus.jpeg","following":false}}],"articlesCount":319}
+
 ---------------------------------------------------------
-feature: classpath:conduitApp/feature/SignUp.feature
-scenarios:  1 | passed:  0 | failed:  1 | time: 0,8983
+feature: classpath:conduitApp/feature/Articles.feature
+scenarios:  1 | passed:  1 | failed:  0 | time: 2,6812
 ---------------------------------------------------------
 
-14:02:11.820 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 3 of 3 (0 remaining) classpath:conduitApp/feature/SignUp.feature
-14:02:11.820 [main] DEBUG com.intuit.karate.Suite - waiting for 3 features to complete
+23:16:30.398 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 3 (0 remaining) classpath:conduitApp/feature/Articles.feature
+23:16:30.407 [main] DEBUG com.intuit.karate.Suite - waiting for 3 features to complete
 Karate version: 1.4.1
 ======================================================
-elapsed:   5,72 | threads:    1 | thread time: 0,90 
-features:     1 | skipped:    2 | efficiency: 0,16
-scenarios:    1 | passed:     0 | failed: 1
+elapsed:   7,86 | threads:    1 | thread time: 2,68 
+features:     1 | skipped:    2 | efficiency: 0,34
+scenarios:    1 | passed:     1 | failed: 0
 ======================================================
->>> failed features:
-match failed: EQUALS
-  $ | not equal | match failed for name: 'user' (MAP:MAP)
-  {"user":{"id":41175,"email":"hipolito74@test.com","username":"tisha.sporer","bio":null,"image":"https://api.realworld.io/images/smiley-cyrus.jpeg","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjo0MTE3NX0sImlhdCI6MTcyMDcyMDkzMCwiZXhwIjoxNzI1OTA0OTMwfQ.5m3LStoiI7pSZOgSyj6MsXJn9A9fZcISAAe__dd_8fI"}}
-  {"user":{"id":"41175","email":"hipolito74@test.com","username":"tisha.sporer","bio":null,"image":" https://api.realworld.io/images/smiley-cyrus.jpeg","token":"#string"}}
-
-    $.user | not equal | match failed for name: 'id' (MAP:MAP)
-    {"id":41175,"email":"hipolito74@test.com","username":"tisha.sporer","bio":null,"image":"https://api.realworld.io/images/smiley-cyrus.jpeg","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjo0MTE3NX0sImlhdCI6MTcyMDcyMDkzMCwiZXhwIjoxNzI1OTA0OTMwfQ.5m3LStoiI7pSZOgSyj6MsXJn9A9fZcISAAe__dd_8fI"}
-    {"id":"41175","email":"hipolito74@test.com","username":"tisha.sporer","bio":null,"image":" https://api.realworld.io/images/smiley-cyrus.jpeg","token":"#string"}
-
-      $.user.id | data types don't match (NUMBER:STRING)
-      41175
-      '41175'
-
-classpath:conduitApp/feature/SignUp.feature:25
-<<<
 
 HTML report: (paste into browser to view) | Karate version: 1.4.1
 file:///C:/Users/hyoga/KarateProject/Estudio/target/karate-reports/karate-summary.html
