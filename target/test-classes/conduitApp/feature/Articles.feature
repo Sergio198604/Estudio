@@ -41,5 +41,7 @@ Scenario: Create and delete article
     When method Get
     Then status 200
     And match response.articles[0].title != articleRequestBody.article.title
+
+    
     
     
