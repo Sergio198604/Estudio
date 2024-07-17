@@ -18,7 +18,7 @@ Scenario: Create a new article
     When method Post
     Then status 201
     And match response.article.title == articleRequestBody.article.title
-@debug
+
 Scenario: Create and delete article
     Given path 'articles'
     And request articleRequestBody
