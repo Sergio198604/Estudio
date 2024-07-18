@@ -1,4 +1,4 @@
-@debug
+
 Feature: Hooks
 
 Background: hooks
@@ -7,6 +7,12 @@ Background: hooks
 
     #after hokks
     * configure afterScenario = function(){ karate.call('classpath:helpers/Dummy.feature') }
+    * configure afterFeature =
+    """
+    function(){
+        karate.log('After Feature Text');
+    }
+    """
 
 
 Scenario: First scenario

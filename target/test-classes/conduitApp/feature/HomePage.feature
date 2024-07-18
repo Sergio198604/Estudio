@@ -21,7 +21,7 @@ Background: Define URL
         Given path 'articles'
         When method Get
         Then status 200
-        And match response == {"articles": "#[10]", "articlesCount": 264}
+        And match response == {"articles": "#[10]", "articlesCount": 330}
         And match each response.articles ==
         """
             {
