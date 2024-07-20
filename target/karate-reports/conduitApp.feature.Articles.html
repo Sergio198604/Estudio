@@ -39,7 +39,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
     </a>
     <div class="nav-count">
       <div id="nav-pass" class="bg-success">1</div>
-      <div id="nav-fail" class="bg-danger">0</div>
+      <div id="nav-fail" class="bg-danger">1</div>
     </div>
   </div>
   <div id="nav-env">
@@ -49,11 +49,14 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
     <div>Scenarios</div>
   </div>
   <div id="nav-date">
-    <div>2024-07-11 11:16:29 p. m.</div>
+    <div>2024-07-17 11:28:33 p. m.</div>
   </div>
 </div>
 
         <div class="nav-container">
+          <div class="nav-item failed">
+            <a href="#[1:15]"><span>[1:15]</span> <span>Create a new article</span></a>
+          </div>
           <div class="nav-item passed">
             <a href="#[2:22]"><span>[2:22]</span> <span>Create and delete article</span></a>
           </div>
@@ -69,29 +72,29 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
           <span class="feature-description"></span>
         </div>
         <div class="scenario">
-          <div class="scenario-heading" id="[2:22]">
+          <div class="scenario-heading" id="[1:15]">
             <div class="heading-container">
               <div class="scenario-tags">
-                <a class="badge badge-primary" href="karate-tags.html">debug</a>
+                
               </div>
               <div class="scenario-keyword">
-                Scenario: <span>[2:22]</span>
-                <span class="scenario-name">Create and delete article</span>
+                Scenario: <span>[1:15]</span>
+                <span class="scenario-name">Create a new article</span>
                 <span></span>
               </div>
             </div>
-            <div class="scenario-time passed">
-              <span>ms:</span>&nbsp;<span>2681</span>
+            <div class="scenario-time failed">
+              <span>ms:</span>&nbsp;<span>942</span>
             </div>
           </div>
           <div class="step-row">
-            <div class="step-container" id="[2:22]bg">
+            <div class="step-container" id="[1:15]bg">
               <div class="step-ref bg-step">&gt;&gt;</div>
               <div class="step-cell passed">Background:</div>
             </div>
             <div class="time-cell passed"></div>
           </div>
-          <div data-parent="[2:22]bg"><div>
+          <div data-parent="[1:15]bg"><div>
   
 
   
@@ -104,7 +107,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>*</span>&nbsp;<span>url apiUrl</span>
       </div>
     </div>
-    <div class="time-cell passed">0</div>
+    <div class="time-cell passed">7</div>
   </div>
 
    
@@ -113,8 +116,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
   
 
-  <div class="preformatted" data-parent="0.5">23:16:26.725 &lt;&lt; lock released, cached callSingle: classpath:helpers/CreateToken.feature
-</div>   
+     
 
   <div>
         
@@ -124,7 +126,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <div class="step-indent"></div>
         <div class="step-cell passed">helpers.CreateToken</div>
       </div>
-      <div class="time-cell passed">1447</div>
+      <div class="time-cell passed">1399</div>
     </div>
     <div>
       <div><div>
@@ -149,9 +151,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
   
 
-  <div class="preformatted" data-parent="0.5.0.call.0.5">23:16:25.212 karate.env system property was: null 
-23:16:25.219 &gt;&gt; lock acquired, begin callSingle: classpath:helpers/CreateToken.feature
-</div>   
+     
 
   
 
@@ -198,7 +198,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>And</span>&nbsp;<span>request</span>
       </div>
     </div>
-    <div class="time-cell passed">56</div>
+    <div class="time-cell passed">63</div>
   </div>
 
    
@@ -231,7 +231,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>When</span>&nbsp;<span>method Post</span>
       </div>
     </div>
-    <div class="time-cell passed">1368</div>
+    <div class="time-cell passed">1324</div>
   </div>
 
    
@@ -240,36 +240,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
   
 
-  <div class="preformatted" data-parent="0.5.0.call.0.16">23:16:25.676 request:
-1 &gt; POST https://api.realworld.io/api/users/login
-1 &gt; Content-Type: application/json; charset=UTF-8
-1 &gt; Content-Length: 65
-1 &gt; Host: api.realworld.io
-1 &gt; Connection: Keep-Alive
-1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.1)
-1 &gt; Accept-Encoding: gzip,deflate
-{&quot;user&quot;:{&quot;email&quot;:&quot;testkarate1@test.cl&quot;,&quot;password&quot;:&quot;clave123456&quot;}}
-
-23:16:26.694 response time in milliseconds: 1007
-1 &lt; 200
-1 &lt; Date: Fri, 12 Jul 2024 03:16:26 GMT
-1 &lt; Content-Type: application/json; charset=utf-8
-1 &lt; Transfer-Encoding: chunked
-1 &lt; Connection: keep-alive
-1 &lt; Report-To: {&quot;group&quot;:&quot;heroku-nel&quot;,&quot;max_age&quot;:3600,&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https://nel.heroku.com/reports?ts=1720754186&amp;sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&amp;s=a%2FyWCtOnep%2F5WXw%2Flv%2FW3t2wtszo9GWsotgxslU5tDo%3D&quot;}]}
-1 &lt; Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1720754186&amp;sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&amp;s=a%2FyWCtOnep%2F5WXw%2Flv%2FW3t2wtszo9GWsotgxslU5tDo%3D
-1 &lt; Nel: {&quot;report_to&quot;:&quot;heroku-nel&quot;,&quot;max_age&quot;:3600,&quot;success_fraction&quot;:0.005,&quot;failure_fraction&quot;:0.05,&quot;response_headers&quot;:[&quot;Via&quot;]}
-1 &lt; X-Powered-By: Express
-1 &lt; Access-Control-Allow-Origin: *
-1 &lt; Etag: W/&quot;130-nkdJO5H6n6YxjOBpVWuKfbNtEsI&quot;
-1 &lt; Via: 1.1 vegur
-1 &lt; CF-Cache-Status: DYNAMIC
-1 &lt; Server: cloudflare
-1 &lt; CF-RAY: 8a1ddfdf4ff6a796-EZE
-1 &lt; alt-svc: h3=&quot;:443&quot;; ma=86400
-{&quot;user&quot;:{&quot;email&quot;:&quot;testkarate1@test.cl&quot;,&quot;username&quot;:&quot;karatetest999&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot;https://api.realworld.io/images/smiley-cyrus.jpeg&quot;,&quot;token&quot;:&quot;eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjozMTgwNn0sImlhdCI6MTcyMDc1NDE4NiwiZXhwIjoxNzI1OTM4MTg2fQ.J1f4naRaTwNgH7wyxdef6a0DLlwswWXt0CidxrFxIIE&quot;}}
-
-</div>   
+     
 
   
 
@@ -288,7 +259,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>Then</span>&nbsp;<span>status 200</span>
       </div>
     </div>
-    <div class="time-cell passed">9</div>
+    <div class="time-cell passed">4</div>
   </div>
 
    
@@ -316,7 +287,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>*</span>&nbsp;<span>def authToken = response.user.token</span>
       </div>
     </div>
-    <div class="time-cell passed">13</div>
+    <div class="time-cell passed">6</div>
   </div>
 
    
@@ -336,6 +307,394 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
 </div>
 </div>
+          <div data-parent="[1:15]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.6">
+      <div class="step-ref bg-step">6</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def articleRequestBody = read(&#39;classpath:conduitApp/json/newArticleRequest.json&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">8</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:15]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.7">
+      <div class="step-ref bg-step">7</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def dataGenerator = Java.type(&#39;helpers.DataGenerator&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">6</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:15]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.8">
+      <div class="step-ref bg-step">8</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def generatedArticleValues = dataGenerator.getRandomArticleValues()</span>
+      </div>
+    </div>
+    <div class="time-cell passed">176</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:15]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.9">
+      <div class="step-ref bg-step">9</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>set articleRequestBody.article.title = dataGenerator.getRandomArticleValues().title</span>
+      </div>
+    </div>
+    <div class="time-cell passed">54</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:15]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.10">
+      <div class="step-ref bg-step">10</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>set articleRequestBody.article.description = dataGenerator.getRandomArticleValues().description</span>
+      </div>
+    </div>
+    <div class="time-cell passed">34</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:15]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.11">
+      <div class="step-ref bg-step">11</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>set articleRequestBody.article.body = dataGenerator.getRandomArticleValues().body</span>
+      </div>
+    </div>
+    <div class="time-cell passed">31</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:15]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.13">
+      <div class="step-ref bg-step">13</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>print articleRequestBody.article.title</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.16">
+      <div class="step-ref passed">16</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;articles&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.17">
+      <div class="step-ref passed">17</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request articleRequestBody</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.18">
+      <div class="step-ref passed">18</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method Post</span>
+      </div>
+    </div>
+    <div class="time-cell passed">598</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.19">
+      <div class="step-ref failed">19</div>
+      
+      <div class="step-cell failed">
+        <span>Then</span>&nbsp;<span>status 201</span>
+      </div>
+    </div>
+    <div class="time-cell failed">27</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.20">
+      <div class="step-ref skipped">20</div>
+      
+      <div class="step-cell skipped">
+        <span>And</span>&nbsp;<span>match response.article.title == articleRequestBody.article.title</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[2:22]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[2:22]</span>
+                <span class="scenario-name">Create and delete article</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>3115</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[2:22]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[2:22]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url apiUrl</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
           <div data-parent="[2:22]bg"><div>
   
 
@@ -349,7 +708,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>*</span>&nbsp;<span>def articleRequestBody = read(&#39;classpath:conduitApp/json/newArticleRequest.json&#39;)</span>
       </div>
     </div>
-    <div class="time-cell passed">4</div>
+    <div class="time-cell passed">13</div>
   </div>
 
    
@@ -377,7 +736,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>*</span>&nbsp;<span>def dataGenerator = Java.type(&#39;helpers.DataGenerator&#39;)</span>
       </div>
     </div>
-    <div class="time-cell passed">12</div>
+    <div class="time-cell passed">6</div>
   </div>
 
    
@@ -405,7 +764,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>*</span>&nbsp;<span>def generatedArticleValues = dataGenerator.getRandomArticleValues()</span>
       </div>
     </div>
-    <div class="time-cell passed">179</div>
+    <div class="time-cell passed">176</div>
   </div>
 
    
@@ -433,7 +792,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>*</span>&nbsp;<span>set articleRequestBody.article.title = dataGenerator.getRandomArticleValues().title</span>
       </div>
     </div>
-    <div class="time-cell passed">29</div>
+    <div class="time-cell passed">54</div>
   </div>
 
    
@@ -461,7 +820,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>*</span>&nbsp;<span>set articleRequestBody.article.description = dataGenerator.getRandomArticleValues().description</span>
       </div>
     </div>
-    <div class="time-cell passed">15</div>
+    <div class="time-cell passed">34</div>
   </div>
 
    
@@ -489,7 +848,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>*</span>&nbsp;<span>set articleRequestBody.article.body = dataGenerator.getRandomArticleValues().body</span>
       </div>
     </div>
-    <div class="time-cell passed">14</div>
+    <div class="time-cell passed">30</div>
   </div>
 
    
@@ -517,7 +876,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>*</span>&nbsp;<span>print articleRequestBody.article.title</span>
       </div>
     </div>
-    <div class="time-cell passed">1</div>
+    <div class="time-cell passed">2</div>
   </div>
 
    
@@ -526,8 +885,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
   
 
-  <div class="preformatted" data-parent="0.13">23:16:26.994 [print] Tristan Mudd 
-</div>   
+     
 
   
 
@@ -602,7 +960,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>When</span>&nbsp;<span>method Post</span>
       </div>
     </div>
-    <div class="time-cell passed">609</div>
+    <div class="time-cell passed">624</div>
   </div>
 
    
@@ -611,37 +969,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
   
 
-  <div class="preformatted" data-parent="0.25">23:16:26.997 request:
-1 &gt; POST https://api.realworld.io/api/articles
-1 &gt; Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjozMTgwNn0sImlhdCI6MTcyMDc1NDE4NiwiZXhwIjoxNzI1OTM4MTg2fQ.J1f4naRaTwNgH7wyxdef6a0DLlwswWXt0CidxrFxIIE
-1 &gt; Content-Type: application/json; charset=UTF-8
-1 &gt; Content-Length: 114
-1 &gt; Host: api.realworld.io
-1 &gt; Connection: Keep-Alive
-1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.1)
-1 &gt; Accept-Encoding: gzip,deflate
-{&quot;article&quot;:{&quot;title&quot;:&quot;Tristan Mudd&quot;,&quot;description&quot;:&quot;Tyrosh&quot;,&quot;body&quot;:&quot;Every flight begins with a fall.&quot;,&quot;tagList&quot;:[]}}
-
-23:16:27.599 response time in milliseconds: 600
-1 &lt; 201
-1 &lt; Date: Fri, 12 Jul 2024 03:16:27 GMT
-1 &lt; Content-Type: application/json; charset=utf-8
-1 &lt; Content-Length: 384
-1 &lt; Connection: keep-alive
-1 &lt; Report-To: {&quot;group&quot;:&quot;heroku-nel&quot;,&quot;max_age&quot;:3600,&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https://nel.heroku.com/reports?ts=1720754187&amp;sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&amp;s=sLNXGxRYSWI%2FsM7x0IFPWHtmelS2G4kmxNvf4HL1zIo%3D&quot;}]}
-1 &lt; Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1720754187&amp;sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&amp;s=sLNXGxRYSWI%2FsM7x0IFPWHtmelS2G4kmxNvf4HL1zIo%3D
-1 &lt; Nel: {&quot;report_to&quot;:&quot;heroku-nel&quot;,&quot;max_age&quot;:3600,&quot;success_fraction&quot;:0.005,&quot;failure_fraction&quot;:0.05,&quot;response_headers&quot;:[&quot;Via&quot;]}
-1 &lt; X-Powered-By: Express
-1 &lt; Access-Control-Allow-Origin: *
-1 &lt; Etag: W/&quot;180-agFOkbYbZIzE7gZC+v2YeOUVH9k&quot;
-1 &lt; Via: 1.1 vegur
-1 &lt; CF-Cache-Status: DYNAMIC
-1 &lt; Server: cloudflare
-1 &lt; CF-RAY: 8a1ddfe5fb420184-GRU
-1 &lt; alt-svc: h3=&quot;:443&quot;; ma=86400
-{&quot;article&quot;:{&quot;slug&quot;:&quot;Tristan-Mudd-31806&quot;,&quot;title&quot;:&quot;Tristan Mudd&quot;,&quot;description&quot;:&quot;Tyrosh&quot;,&quot;body&quot;:&quot;Every flight begins with a fall.&quot;,&quot;tagList&quot;:[],&quot;createdAt&quot;:&quot;2024-07-12T03:16:27.420Z&quot;,&quot;updatedAt&quot;:&quot;2024-07-12T03:16:27.420Z&quot;,&quot;favorited&quot;:false,&quot;favoritesCount&quot;:0,&quot;author&quot;:{&quot;username&quot;:&quot;karatetest999&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot;https://api.realworld.io/images/smiley-cyrus.jpeg&quot;,&quot;following&quot;:false}}}
-
-</div>   
+     
 
   
 
@@ -716,7 +1044,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>Given</span>&nbsp;<span>params {limit: 10, offset: 0}</span>
       </div>
     </div>
-    <div class="time-cell passed">3</div>
+    <div class="time-cell passed">1</div>
   </div>
 
    
@@ -772,7 +1100,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>When</span>&nbsp;<span>method Get</span>
       </div>
     </div>
-    <div class="time-cell passed">605</div>
+    <div class="time-cell passed">644</div>
   </div>
 
    
@@ -781,35 +1109,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
   
 
-  <div class="preformatted" data-parent="0.31">23:16:27.617 request:
-2 &gt; GET https://api.realworld.io/api/articles?offset=0&amp;limit=10
-2 &gt; Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjozMTgwNn0sImlhdCI6MTcyMDc1NDE4NiwiZXhwIjoxNzI1OTM4MTg2fQ.J1f4naRaTwNgH7wyxdef6a0DLlwswWXt0CidxrFxIIE
-2 &gt; Host: api.realworld.io
-2 &gt; Connection: Keep-Alive
-2 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.1)
-2 &gt; Accept-Encoding: gzip,deflate
-
-
-23:16:28.210 response time in milliseconds: 588
-2 &lt; 200
-2 &lt; Date: Fri, 12 Jul 2024 03:16:28 GMT
-2 &lt; Content-Type: application/json; charset=utf-8
-2 &lt; Transfer-Encoding: chunked
-2 &lt; Connection: keep-alive
-2 &lt; Report-To: {&quot;group&quot;:&quot;heroku-nel&quot;,&quot;max_age&quot;:3600,&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https://nel.heroku.com/reports?ts=1720754187&amp;sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&amp;s=sLNXGxRYSWI%2FsM7x0IFPWHtmelS2G4kmxNvf4HL1zIo%3D&quot;}]}
-2 &lt; Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1720754187&amp;sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&amp;s=sLNXGxRYSWI%2FsM7x0IFPWHtmelS2G4kmxNvf4HL1zIo%3D
-2 &lt; Nel: {&quot;report_to&quot;:&quot;heroku-nel&quot;,&quot;max_age&quot;:3600,&quot;success_fraction&quot;:0.005,&quot;failure_fraction&quot;:0.05,&quot;response_headers&quot;:[&quot;Via&quot;]}
-2 &lt; X-Powered-By: Express
-2 &lt; Access-Control-Allow-Origin: *
-2 &lt; Etag: W/&quot;f80-cvHu2HB3uTXLo4xBxWyJn/8SDl4&quot;
-2 &lt; Via: 1.1 vegur
-2 &lt; CF-Cache-Status: DYNAMIC
-2 &lt; Server: cloudflare
-2 &lt; CF-RAY: 8a1ddfe95ef91ffc-EZE
-2 &lt; alt-svc: h3=&quot;:443&quot;; ma=86400
-{&quot;articles&quot;:[{&quot;slug&quot;:&quot;Tristan-Mudd-31806&quot;,&quot;title&quot;:&quot;Tristan Mudd&quot;,&quot;description&quot;:&quot;Tyrosh&quot;,&quot;body&quot;:&quot;Every flight begins with a fall.&quot;,&quot;tagList&quot;:[],&quot;createdAt&quot;:&quot;2024-07-12T03:16:27.420Z&quot;,&quot;updatedAt&quot;:&quot;2024-07-12T03:16:27.420Z&quot;,&quot;favorited&quot;:false,&quot;favoritesCount&quot;:0,&quot;author&quot;:{&quot;username&quot;:&quot;karatetest999&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot;https://api.realworld.io/images/smiley-cyrus.jpeg&quot;,&quot;following&quot;:false}},{&quot;slug&quot;:&quot;Ellyn-Tarbeck-31806&quot;,&quot;title&quot;:&quot;Ellyn Tarbeck&quot;,&quot;description&quot;:&quot;Gulltown&quot;,&quot;body&quot;:&quot;Things are not always as they seemed, much that may seem evil can be good.&quot;,&quot;tagList&quot;:[],&quot;createdAt&quot;:&quot;2024-07-12T03:07:29.783Z&quot;,&quot;updatedAt&quot;:&quot;2024-07-12T03:07:29.783Z&quot;,&quot;favorited&quot;:false,&quot;favoritesCount&quot;:0,&quot;author&quot;:{&quot;username&quot;:&quot;karatetest999&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot;https://api.realworld.io/images/smiley-cyrus.jpeg&quot;,&quot;following&quot;:false}},{&quot;slug&quot;:&quot;Ellaria-Sand-31806&quot;,&quot;title&quot;:&quot;Ellaria Sand&quot;,&quot;description&quot;:&quot;Pentos&quot;,&quot;body&quot;:&quot;Things are not always as they seemed, much that may seem evil can be good.&quot;,&quot;tagList&quot;:[],&quot;createdAt&quot;:&quot;2024-07-12T03:07:03.604Z&quot;,&quot;updatedAt&quot;:&quot;2024-07-12T03:07:03.604Z&quot;,&quot;favorited&quot;:false,&quot;favoritesCount&quot;:0,&quot;author&quot;:{&quot;username&quot;:&quot;karatetest999&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot;https://api.realworld.io/images/smiley-cyrus.jpeg&quot;,&quot;following&quot;:false}},{&quot;slug&quot;:&quot;Willit-31806&quot;,&quot;title&quot;:&quot;Willit&quot;,&quot;description&quot;:&quot;King&#39;s Landing&quot;,&quot;body&quot;:&quot;The North remembers.&quot;,&quot;tagList&quot;:[],&quot;createdAt&quot;:&quot;2024-07-12T03:03:56.908Z&quot;,&quot;updatedAt&quot;:&quot;2024-07-12T03:03:56.908Z&quot;,&quot;favorited&quot;:false,&quot;favoritesCount&quot;:0,&quot;author&quot;:{&quot;username&quot;:&quot;karatetest999&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot;https://api.realworld.io/images/smiley-cyrus.jpeg&quot;,&quot;following&quot;:false}},{&quot;slug&quot;:&quot;delete-article-1-31806&quot;,&quot;title&quot;:&quot;delete article 1&quot;,&quot;description&quot;:&quot;agwqsa&quot;,&quot;body&quot;:&quot;wqrtegds&quot;,&quot;tagList&quot;:[],&quot;createdAt&quot;:&quot;2024-07-12T03:02:56.919Z&quot;,&quot;updatedAt&quot;:&quot;2024-07-12T03:02:56.919Z&quot;,&quot;favorited&quot;:false,&quot;favoritesCount&quot;:0,&quot;author&quot;:{&quot;username&quot;:&quot;karatetest999&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot;https://api.realworld.io/images/smiley-cyrus.jpeg&quot;,&quot;following&quot;:false}},{&quot;slug&quot;:&quot;Pearse-Caron-31806&quot;,&quot;title&quot;:&quot;Pearse Caron&quot;,&quot;description&quot;:&quot;Tyrosh&quot;,&quot;body&quot;:&quot;Do the dead frighten you?&quot;,&quot;tagList&quot;:[],&quot;createdAt&quot;:&quot;2024-07-12T03:01:13.914Z&quot;,&quot;updatedAt&quot;:&quot;2024-07-12T03:01:13.914Z&quot;,&quot;favorited&quot;:false,&quot;favoritesCount&quot;:0,&quot;author&quot;:{&quot;username&quot;:&quot;karatetest999&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot;https://api.realworld.io/images/smiley-cyrus.jpeg&quot;,&quot;following&quot;:false}},{&quot;slug&quot;:&quot;Dontos-Hollard-31806&quot;,&quot;title&quot;:&quot;Dontos Hollard&quot;,&quot;description&quot;:&quot;Braavos&quot;,&quot;body&quot;:&quot;Some old wounds never truly heal, and bleed again at the slightest word.&quot;,&quot;tagList&quot;:[],&quot;createdAt&quot;:&quot;2024-07-12T03:00:47.181Z&quot;,&quot;updatedAt&quot;:&quot;2024-07-12T03:00:47.181Z&quot;,&quot;favorited&quot;:false,&quot;favoritesCount&quot;:0,&quot;author&quot;:{&quot;username&quot;:&quot;karatetest999&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot;https://api.realworld.io/images/smiley-cyrus.jpeg&quot;,&quot;following&quot;:false}},{&quot;slug&quot;:&quot;Mago-31806&quot;,&quot;title&quot;:&quot;Mago&quot;,&quot;description&quot;:&quot;Tyria&quot;,&quot;body&quot;:&quot;... a mind needs books as a sword needs a whetstone, if it is to keep its edge.&quot;,&quot;tagList&quot;:[],&quot;createdAt&quot;:&quot;2024-07-12T02:59:14.178Z&quot;,&quot;updatedAt&quot;:&quot;2024-07-12T02:59:14.178Z&quot;,&quot;favorited&quot;:false,&quot;favoritesCount&quot;:0,&quot;author&quot;:{&quot;username&quot;:&quot;karatetest999&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot;https://api.realworld.io/images/smiley-cyrus.jpeg&quot;,&quot;following&quot;:false}},{&quot;slug&quot;:&quot;The-Great-Walrus-31806&quot;,&quot;title&quot;:&quot;The Great Walrus&quot;,&quot;description&quot;:&quot;Qohor&quot;,&quot;body&quot;:&quot;There are no heroes...in life, the monsters win.&quot;,&quot;tagList&quot;:[],&quot;createdAt&quot;:&quot;2024-07-12T02:58:16.546Z&quot;,&quot;updatedAt&quot;:&quot;2024-07-12T02:58:16.546Z&quot;,&quot;favorited&quot;:false,&quot;favoritesCount&quot;:0,&quot;author&quot;:{&quot;username&quot;:&quot;karatetest999&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot;https://api.realworld.io/images/smiley-cyrus.jpeg&quot;,&quot;following&quot;:false}},{&quot;slug&quot;:&quot;Karlon-Stark-31806&quot;,&quot;title&quot;:&quot;Karlon Stark&quot;,&quot;description&quot;:&quot;Sar Meel&quot;,&quot;body&quot;:&quot;When the snows fall and the white winds blow, the lone wolf dies but the pack survives.&quot;,&quot;tagList&quot;:[],&quot;createdAt&quot;:&quot;2024-07-12T02:56:35.979Z&quot;,&quot;updatedAt&quot;:&quot;2024-07-12T02:56:35.979Z&quot;,&quot;favorited&quot;:false,&quot;favoritesCount&quot;:0,&quot;author&quot;:{&quot;username&quot;:&quot;karatetest999&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot;https://api.realworld.io/images/smiley-cyrus.jpeg&quot;,&quot;following&quot;:false}}],&quot;articlesCount&quot;:320}
-
-</div>   
+     
 
   
 
@@ -856,7 +1156,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>And</span>&nbsp;<span>match response.articles[0].title == articleRequestBody.article.title</span>
       </div>
     </div>
-    <div class="time-cell passed">41</div>
+    <div class="time-cell passed">2</div>
   </div>
 
    
@@ -884,7 +1184,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>Given</span>&nbsp;<span>path &#39;articles&#39;,articleId</span>
       </div>
     </div>
-    <div class="time-cell passed">15</div>
+    <div class="time-cell passed">12</div>
   </div>
 
    
@@ -912,7 +1212,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>When</span>&nbsp;<span>method Delete</span>
       </div>
     </div>
-    <div class="time-cell passed">543</div>
+    <div class="time-cell passed">581</div>
   </div>
 
    
@@ -921,34 +1221,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
   
 
-  <div class="preformatted" data-parent="0.36">23:16:28.273 request:
-3 &gt; DELETE https://api.realworld.io/api/articles/Tristan-Mudd-31806
-3 &gt; Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjozMTgwNn0sImlhdCI6MTcyMDc1NDE4NiwiZXhwIjoxNzI1OTM4MTg2fQ.J1f4naRaTwNgH7wyxdef6a0DLlwswWXt0CidxrFxIIE
-3 &gt; Host: api.realworld.io
-3 &gt; Connection: Keep-Alive
-3 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.1)
-3 &gt; Accept-Encoding: gzip,deflate
-
-
-23:16:28.811 response time in milliseconds: 536
-3 &lt; 204
-3 &lt; Date: Fri, 12 Jul 2024 03:16:28 GMT
-3 &lt; Content-Length: 0
-3 &lt; Connection: keep-alive
-3 &lt; Report-To: {&quot;group&quot;:&quot;heroku-nel&quot;,&quot;max_age&quot;:3600,&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https://nel.heroku.com/reports?ts=1720754188&amp;sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&amp;s=8lpVcw4%2FSToRZyEW7FdeGSaaYZB69zjHwBiVo9CpeOY%3D&quot;}]}
-3 &lt; Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1720754188&amp;sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&amp;s=8lpVcw4%2FSToRZyEW7FdeGSaaYZB69zjHwBiVo9CpeOY%3D
-3 &lt; Nel: {&quot;report_to&quot;:&quot;heroku-nel&quot;,&quot;max_age&quot;:3600,&quot;success_fraction&quot;:0.005,&quot;failure_fraction&quot;:0.05,&quot;response_headers&quot;:[&quot;Via&quot;]}
-3 &lt; X-Powered-By: Express
-3 &lt; Access-Control-Allow-Origin: *
-3 &lt; Etag: W/&quot;a-bAsFyilMr4Ra1hIU5PyoyFRunpI&quot;
-3 &lt; Via: 1.1 vegur
-3 &lt; CF-Cache-Status: DYNAMIC
-3 &lt; Server: cloudflare
-3 &lt; CF-RAY: 8a1ddfed5da3a79c-EZE
-3 &lt; alt-svc: h3=&quot;:443&quot;; ma=86400
-
-
-</div>   
+     
 
   
 
@@ -995,7 +1268,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>Given</span>&nbsp;<span>params {limit: 10, offset: 0}</span>
       </div>
     </div>
-    <div class="time-cell passed">1</div>
+    <div class="time-cell passed">0</div>
   </div>
 
    
@@ -1051,7 +1324,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>When</span>&nbsp;<span>method Get</span>
       </div>
     </div>
-    <div class="time-cell passed">605</div>
+    <div class="time-cell passed">927</div>
   </div>
 
    
@@ -1060,35 +1333,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
   
 
-  <div class="preformatted" data-parent="0.41">23:16:28.819 request:
-4 &gt; GET https://api.realworld.io/api/articles?offset=0&amp;limit=10
-4 &gt; Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjozMTgwNn0sImlhdCI6MTcyMDc1NDE4NiwiZXhwIjoxNzI1OTM4MTg2fQ.J1f4naRaTwNgH7wyxdef6a0DLlwswWXt0CidxrFxIIE
-4 &gt; Host: api.realworld.io
-4 &gt; Connection: Keep-Alive
-4 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.1)
-4 &gt; Accept-Encoding: gzip,deflate
-
-
-23:16:29.420 response time in milliseconds: 600
-4 &lt; 200
-4 &lt; Date: Fri, 12 Jul 2024 03:16:29 GMT
-4 &lt; Content-Type: application/json; charset=utf-8
-4 &lt; Transfer-Encoding: chunked
-4 &lt; Connection: keep-alive
-4 &lt; Report-To: {&quot;group&quot;:&quot;heroku-nel&quot;,&quot;max_age&quot;:3600,&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https://nel.heroku.com/reports?ts=1720754189&amp;sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&amp;s=YiOl28CnFOTvIy0tACNvDd%2BQG9oe5ovPmPPtP6TiA98%3D&quot;}]}
-4 &lt; Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1720754189&amp;sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&amp;s=YiOl28CnFOTvIy0tACNvDd%2BQG9oe5ovPmPPtP6TiA98%3D
-4 &lt; Nel: {&quot;report_to&quot;:&quot;heroku-nel&quot;,&quot;max_age&quot;:3600,&quot;success_fraction&quot;:0.005,&quot;failure_fraction&quot;:0.05,&quot;response_headers&quot;:[&quot;Via&quot;]}
-4 &lt; X-Powered-By: Express
-4 &lt; Access-Control-Allow-Origin: *
-4 &lt; Etag: W/&quot;fc4-mU/XPoiCG84uPVGXNXliGxTn2ys&quot;
-4 &lt; Via: 1.1 vegur
-4 &lt; CF-Cache-Status: DYNAMIC
-4 &lt; Server: cloudflare
-4 &lt; CF-RAY: 8a1ddff0ce25a77c-EZE
-4 &lt; alt-svc: h3=&quot;:443&quot;; ma=86400
-{&quot;articles&quot;:[{&quot;slug&quot;:&quot;Ellyn-Tarbeck-31806&quot;,&quot;title&quot;:&quot;Ellyn Tarbeck&quot;,&quot;description&quot;:&quot;Gulltown&quot;,&quot;body&quot;:&quot;Things are not always as they seemed, much that may seem evil can be good.&quot;,&quot;tagList&quot;:[],&quot;createdAt&quot;:&quot;2024-07-12T03:07:29.783Z&quot;,&quot;updatedAt&quot;:&quot;2024-07-12T03:07:29.783Z&quot;,&quot;favorited&quot;:false,&quot;favoritesCount&quot;:0,&quot;author&quot;:{&quot;username&quot;:&quot;karatetest999&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot;https://api.realworld.io/images/smiley-cyrus.jpeg&quot;,&quot;following&quot;:false}},{&quot;slug&quot;:&quot;Ellaria-Sand-31806&quot;,&quot;title&quot;:&quot;Ellaria Sand&quot;,&quot;description&quot;:&quot;Pentos&quot;,&quot;body&quot;:&quot;Things are not always as they seemed, much that may seem evil can be good.&quot;,&quot;tagList&quot;:[],&quot;createdAt&quot;:&quot;2024-07-12T03:07:03.604Z&quot;,&quot;updatedAt&quot;:&quot;2024-07-12T03:07:03.604Z&quot;,&quot;favorited&quot;:false,&quot;favoritesCount&quot;:0,&quot;author&quot;:{&quot;username&quot;:&quot;karatetest999&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot;https://api.realworld.io/images/smiley-cyrus.jpeg&quot;,&quot;following&quot;:false}},{&quot;slug&quot;:&quot;Willit-31806&quot;,&quot;title&quot;:&quot;Willit&quot;,&quot;description&quot;:&quot;King&#39;s Landing&quot;,&quot;body&quot;:&quot;The North remembers.&quot;,&quot;tagList&quot;:[],&quot;createdAt&quot;:&quot;2024-07-12T03:03:56.908Z&quot;,&quot;updatedAt&quot;:&quot;2024-07-12T03:03:56.908Z&quot;,&quot;favorited&quot;:false,&quot;favoritesCount&quot;:0,&quot;author&quot;:{&quot;username&quot;:&quot;karatetest999&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot;https://api.realworld.io/images/smiley-cyrus.jpeg&quot;,&quot;following&quot;:false}},{&quot;slug&quot;:&quot;delete-article-1-31806&quot;,&quot;title&quot;:&quot;delete article 1&quot;,&quot;description&quot;:&quot;agwqsa&quot;,&quot;body&quot;:&quot;wqrtegds&quot;,&quot;tagList&quot;:[],&quot;createdAt&quot;:&quot;2024-07-12T03:02:56.919Z&quot;,&quot;updatedAt&quot;:&quot;2024-07-12T03:02:56.919Z&quot;,&quot;favorited&quot;:false,&quot;favoritesCount&quot;:0,&quot;author&quot;:{&quot;username&quot;:&quot;karatetest999&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot;https://api.realworld.io/images/smiley-cyrus.jpeg&quot;,&quot;following&quot;:false}},{&quot;slug&quot;:&quot;Pearse-Caron-31806&quot;,&quot;title&quot;:&quot;Pearse Caron&quot;,&quot;description&quot;:&quot;Tyrosh&quot;,&quot;body&quot;:&quot;Do the dead frighten you?&quot;,&quot;tagList&quot;:[],&quot;createdAt&quot;:&quot;2024-07-12T03:01:13.914Z&quot;,&quot;updatedAt&quot;:&quot;2024-07-12T03:01:13.914Z&quot;,&quot;favorited&quot;:false,&quot;favoritesCount&quot;:0,&quot;author&quot;:{&quot;username&quot;:&quot;karatetest999&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot;https://api.realworld.io/images/smiley-cyrus.jpeg&quot;,&quot;following&quot;:false}},{&quot;slug&quot;:&quot;Dontos-Hollard-31806&quot;,&quot;title&quot;:&quot;Dontos Hollard&quot;,&quot;description&quot;:&quot;Braavos&quot;,&quot;body&quot;:&quot;Some old wounds never truly heal, and bleed again at the slightest word.&quot;,&quot;tagList&quot;:[],&quot;createdAt&quot;:&quot;2024-07-12T03:00:47.181Z&quot;,&quot;updatedAt&quot;:&quot;2024-07-12T03:00:47.181Z&quot;,&quot;favorited&quot;:false,&quot;favoritesCount&quot;:0,&quot;author&quot;:{&quot;username&quot;:&quot;karatetest999&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot;https://api.realworld.io/images/smiley-cyrus.jpeg&quot;,&quot;following&quot;:false}},{&quot;slug&quot;:&quot;Mago-31806&quot;,&quot;title&quot;:&quot;Mago&quot;,&quot;description&quot;:&quot;Tyria&quot;,&quot;body&quot;:&quot;... a mind needs books as a sword needs a whetstone, if it is to keep its edge.&quot;,&quot;tagList&quot;:[],&quot;createdAt&quot;:&quot;2024-07-12T02:59:14.178Z&quot;,&quot;updatedAt&quot;:&quot;2024-07-12T02:59:14.178Z&quot;,&quot;favorited&quot;:false,&quot;favoritesCount&quot;:0,&quot;author&quot;:{&quot;username&quot;:&quot;karatetest999&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot;https://api.realworld.io/images/smiley-cyrus.jpeg&quot;,&quot;following&quot;:false}},{&quot;slug&quot;:&quot;The-Great-Walrus-31806&quot;,&quot;title&quot;:&quot;The Great Walrus&quot;,&quot;description&quot;:&quot;Qohor&quot;,&quot;body&quot;:&quot;There are no heroes...in life, the monsters win.&quot;,&quot;tagList&quot;:[],&quot;createdAt&quot;:&quot;2024-07-12T02:58:16.546Z&quot;,&quot;updatedAt&quot;:&quot;2024-07-12T02:58:16.546Z&quot;,&quot;favorited&quot;:false,&quot;favoritesCount&quot;:0,&quot;author&quot;:{&quot;username&quot;:&quot;karatetest999&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot;https://api.realworld.io/images/smiley-cyrus.jpeg&quot;,&quot;following&quot;:false}},{&quot;slug&quot;:&quot;Karlon-Stark-31806&quot;,&quot;title&quot;:&quot;Karlon Stark&quot;,&quot;description&quot;:&quot;Sar Meel&quot;,&quot;body&quot;:&quot;When the snows fall and the white winds blow, the lone wolf dies but the pack survives.&quot;,&quot;tagList&quot;:[],&quot;createdAt&quot;:&quot;2024-07-12T02:56:35.979Z&quot;,&quot;updatedAt&quot;:&quot;2024-07-12T02:56:35.979Z&quot;,&quot;favorited&quot;:false,&quot;favoritesCount&quot;:0,&quot;author&quot;:{&quot;username&quot;:&quot;karatetest999&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot;https://api.realworld.io/images/smiley-cyrus.jpeg&quot;,&quot;following&quot;:false}},{&quot;slug&quot;:&quot;Carolei-Waynwood-31806&quot;,&quot;title&quot;:&quot;Carolei Waynwood&quot;,&quot;description&quot;:&quot;Samyrian&quot;,&quot;body&quot;:&quot;Give me honorable enemies rather than ambitious ones, and I&#39;ll sleep more easily by night.&quot;,&quot;tagList&quot;:[],&quot;createdAt&quot;:&quot;2024-07-12T02:55:23.332Z&quot;,&quot;updatedAt&quot;:&quot;2024-07-12T02:55:23.332Z&quot;,&quot;favorited&quot;:false,&quot;favoritesCount&quot;:0,&quot;author&quot;:{&quot;username&quot;:&quot;karatetest999&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot;https://api.realworld.io/images/smiley-cyrus.jpeg&quot;,&quot;following&quot;:false}}],&quot;articlesCount&quot;:319}
-
-</div>   
+     
 
   
 
@@ -1135,7 +1380,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>And</span>&nbsp;<span>match response.articles[0].title != articleRequestBody.article.title</span>
       </div>
     </div>
-    <div class="time-cell passed">1</div>
+    <div class="time-cell passed">2</div>
   </div>
 
    
